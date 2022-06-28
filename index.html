@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--© Vince Vagay-->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebV - Vince Vagay</title>
+  <link rel="stylesheet" href="mystyle.css" type="text/css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@300&family=Rubik&family=Source+Sans+Pro&display=swap');
+    </style>
+</head>
+<iframe src="background.html" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no"></iframe>
+<!--Header contains logo and title-->
+<header id="header" class="header">
+    <!--For title of page-->
+    <div class="flexbox wrapper" style="margin-top: -10px; margin-left: -8px;">
+      <h1 style="margin-top: -10%;">Vince's Movement Diff</h1> 
+    </div>
+    <div class="zLayer99">
+        <img  class="non"src="Images/HeaderLogo.png" alt="HeaderLogo" style="width: 20%; margin-left: -10px; margin-right:25px; margin-top:-100%"/>
+    </div>
+</header>
+<!--Header ends here-->
+<!--Body starts here-->
+<body>
+</div> 
+<!--Navigation starts here-->
+<!--Links to parts of website-->
+<div class="nav" id="nav">
+  <div style="text-align: center; font-size: 1.5vw; padding-top: 0.2vw; padding-bottom: 0.5vw;">
+    <a class = "nav" href="index.html" style="color: white;">Home | </a>
+    <a class = "nav" href="index.html" style="color: white;">| Videos |</a>
+    <a class = "nav" href="index.html" style="color: white;">| Politics |</a>
+    <a class = "nav" href="index.html" style="color: white;">| Research & Review |</a>
+    <a class = "nav" href="index.html" style="color: white;">| Articles |</a>
+    <a class = "nav" href="index.html" style="color: white;">| Open Source |</a>
+    <a class = "nav" href="index.html" style="color: white;">| Technology |</a>
+    <a class = "nav" href="index.html" style="color: white;">| Mental Health |</a>
+    <a class = "nav" href="index.html" style="color: white;">| Virtual Machine |</a>
+    <a class = "nav" href="index.html" style="color: white;">| Vince </a>
+</div>
+  
+<!--Sidebar navigation, scrolls you to section on current page-->
+<div class="container" style="margin-top: 1%;">
+  <nav>
+      <ul>
+          <li class = "link"><a href="#Section1" style="color: white">Section 1</a></li>
+          <li class = "link"><a href="#Section2" style="color: white">Section 2</a></li>
+          <li class = "link"><a href="#Section3" style="color: white">Section 3</a></li>
+          <li class = "link"><a href="#Section4" style="color: white">Section 4</a></li>
+          <li class = "link"><a href="#Section5" style="color: white">Section 5</a></li>
+      </ul>
+  </nav>
+</div>
+</div>
+<!--Js to make nav scroll with page-->
+<script>
+  window.onscroll = function() {myFunction()};
+  
+  var nav = document.getElementById("nav");
+  var sticky = nav.offsetTop;
+  
+  function myFunction() {
+    if (window.pageYOffset > sticky) {
+      nav.classList.add("sticky");
+    } else {
+      nav.classList.remove("sticky");
+    }
+  }
+</script>
+<br>
+<!--Navigation ends here-->
+
+<!--Start of flexboxes to divide webpage-->
+
+<!--Each section follows the same uniformity: image on left, heading on right, text on Right below heading-->
+<div class="flexbox">
+  <!--Header is centred with a large font size-->
+  <div id="" style="font-size:1.5vw;text-align:left;">
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+  </div>
+</div>
+</body>
+<!--Body ends here-->
+<!--Link to scroll you back to top of page-->
+<div style="text-align: center;">
+<a style="color:#ffffff;" href="#header">Back to top</a>
+<br><br><br>
+<!--Footer that travels with you at the bottom of page-->
+<footer>
+<!--Copyrighted by me-->
+<span style="float: left;"><a style="all: unset" href="https://docs.google.com/document/d/e/2PACX-1vRhD22yz03Y3DiQR9Nbky8U8s2Q5uM1M4JXN9G5vgHY58NGS6HQ4wnFtNE8SkdORG1Hkbw5n8i03xDm/pub">References</a></span><span style="float: right; margin-right:25px;">© Vince Vagay | 2022</span>
+</footer>
+
+</html>
